@@ -1,10 +1,8 @@
 package com.fsalgado.foro.controller;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -13,9 +11,7 @@ import com.fsalgado.foro.DTO.ComentarioDTO;
 import com.fsalgado.foro.DTO.LoginDTO;
 import com.fsalgado.foro.DTO.PublicacionDTO;
 import com.fsalgado.foro.DTO.UserDTO;
-import com.fsalgado.foro.model.Categoria;
-import com.fsalgado.foro.model.Comentario;
-import com.fsalgado.foro.model.Publicacion;
+
 import com.fsalgado.foro.service.ForoService;
 import com.fsalgado.foro.service.UserService;
 
